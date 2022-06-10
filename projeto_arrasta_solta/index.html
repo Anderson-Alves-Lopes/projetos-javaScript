@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>Arrastar e Soltar</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta name="description" content="Descrição do meu site." />
+        <meta name="keywords" content="palavras,separadas,por,virgula" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="author" content="Anderson Alves" />
+        <meta charset="utf-8">
+        <link rel="shortcut icon" type="image-x/png" href="imagens/arrastar-e-soltar.ico" />
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Arrastar e Soltar</h1>
+
+        <div class="neutralArea">
+         <div style="background-image:url(imagens/cachorrinhos.jpg)" class="item" draggable="true">1</div>
+         <div style="background-image:url(imagens/gatos.jpg)" class="item" draggable="true">2</div>  
+         <div style="background-image:url(imagens/pandas.jpg);" class="item" draggable="true">3</div>      
+        </div><!--neutralArea-->
+        <div class="areas">
+          <div class="area" data-name="a"></div>
+          <div class="area" data-name="b"></div>
+          <div class="area" data-name="c"></div>
+        </div><!--areas-->
+         <footer>
+             <p>Anderson Alves</p>
+             <p>Criado pela B7Web</p>
+         </footer>  
+         
+        <script src="script.js"></script>
+    </body>
+</html>

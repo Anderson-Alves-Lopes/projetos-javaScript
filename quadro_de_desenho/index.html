@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>Quadro de desenho</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta name="keywords" content="palavras,separadas,por,virgula" />
+        <meta name="description" content="Descrição do meu site" />
+        <meta name="author" content="Anderson Alves" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta charset="utf-8">
+        <link rel="shortcut icon" type="image-x/png" href="imagens/prancheta-de-desenho.ico" />
+        <link href="font-awesome/css/all.min.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        
+       <h1>Desenhando no Canvas</h1>
+       <canvas id="tela" width="800" height="400"></canvas>
+       <div class="colorArea">
+           <div data-color="black" style="background-color:black" class="color active"></div>
+           <div data-color="blue" style="background-color:blue" class="color"></div>
+           <div data-color="red" style="background-color:red" class="color"></div>
+           <div data-color="green" style="background-color:green" class="color"></div>
+           <div data-color="yellow" style="background-color:yellow" class="color"></div>
+           <div data-color="gray" style="background-color:gray" class="color"></div>
+       </div><!--colorArea-->
+       <button class="clear">Limpar Quadro</button>
+       
+        <script src="script.js"></script>
+    </body>
+    </html>

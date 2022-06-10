@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>Clima</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta name="keywords" content="palavras,separadas,por,virgula" />
+        <meta name="description" content="Descrição do meu site" />
+        <meta name="author" content="Anderson Alves" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta charset="utf-8">
+        <link rel="shortcut icon" type="image-x/png" href="imagens/app-de-clima.ico" />
+        <link href="font-awesome/css/all.min.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Clima</h1>
+
+     <form class="busca">
+        <input type="search" id="searchInput">
+        <button>Buscar</button>
+     </form>
+     <div class="resultado">
+     <div class="titulo">--</div>
+
+     <div class="info">
+      <div class="temp">
+      <div class="tempTitulo">Temperatura</div>
+      <div class="tempInfo">--<sup>ºC</sup></div>
+      <img src="http://openweathermap.org/img/wn/10d@2x.png" />
+      <div class="descricao">--</div>
+      </div><!--temp-->
+      <div class="vento">
+       <div class="ventoTitulo">Vento</div>
+       <div class="ventoInfo">--<span>km/h</span></div>
+       <div class="ventoArea">
+         <div class="ventoPonto" style="transform:rotate(0deg)"></div>
+       </div><!--ventoArea-->
+      </div><!--vento-->
+     </div><!--info-->
+     </div><!--resultado-->
+     <div class="aviso"></div>
+     <footer>
+         <p>Anderson Alves</p>
+         <a target="_blank" href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+            <a target="_blank" href="https://github.com/Anderson-Alves-Lopes"><i class="fa-brands fa-github"></i></a>
+     </footer>
+        <script src="functions.js"></script>
+    </body>
+</html>

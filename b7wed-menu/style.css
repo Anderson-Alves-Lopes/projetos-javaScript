@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+body{
+    background-color:#eeeeee;
+}
+aside{
+    position:fixed;
+    top:0;
+    right:0;
+    z-index:999;
+    display:flex;
+}
+#menu-opener{
+    width:40px;
+    height:40px;
+    cursor:pointer;
+    margin-top:10px;
+    
+}
+
+#menu-area{
+    width:0;
+    height:100vh;
+    background-color:#ccc;
+    overflow-x:hidden;
+    overflow-y:auto;
+    transition:all ease .9s;
+}
+#menu-area ul, #menu-area li{
+    padding:10px;
+    cursor:pointer;
+    list-style-type:none;
+    color:#555;
+    display:block;
+
+}
+#menu-area li:hover{
+ background-color:#ddd;
+}
+.menu-opened{
+    width:200px !important;
+}
